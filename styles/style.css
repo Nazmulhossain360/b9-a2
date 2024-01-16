@@ -164,69 +164,35 @@ nav li a{
     color: #fff;
     margin-top: 10px ;
 }
- /* Our destination section styles   */
-.our-destinatination{
+
+ /* your destination section styles   */
+.your-destinatination{
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 20px;
 }
 .destination-title{
     color: #131318;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    margin-bottom: 15px;
 }
 .destination-description{
-        color: rgba(19, 19, 24, 0.70);
-        text-align: center;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 26px; 
-        margin-bottom: 25px;
-}
-.destination-images{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
-.row-1{
+
+.row{
     display: flex;
-    height: 300px;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-.row-2{
-    display: flex;
-    height: 300px;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-.row-3{
-    display: flex;
-    height: 300px;
     gap: 20px;
     margin-bottom: 20px;
 }
 
-.row-1 img{
-    width: 50%;
-}
-.row2-img1{
-    width: 30%;
-}
-.row2-img2{
-    width: 45%;
-}
-.row2-img3{
-    width: 25%;
-}
-.row3-img1{
-    width: 40%;
-}
-.row3-img2{
-    width: 60%;
-} 
 
 /* why choose us section styles  */
 .why-choose-title{
@@ -455,65 +421,14 @@ footer{
     }
     /* Your destination section styles  */
 
-    .destination-title{
-        font-size: 30px;
-        font-weight: 800;
-        margin-bottom: 10px;
-    }
-    .destination-description{
-            font-size: 10px;
-            font-weight: 400;
-            margin-bottom: 15px;
-    }
-    .destination-images{
-                /* display: flex;
-                flex-direction: column; 
-                gap: 200px; */
-                display: grid;
-                grid-template-columns: 1fr;
-    }
     .destination-images img{
-        width: 100%;
-        height: 300px;
+        width:100% ;
+        height: 220px;
     }
-    .row-1 img{
-        width: 100%;
-        height: 300px;
+    .row{
+       flex-direction: column;
+    }
     
-
-    }
-    .row2-img1{
-        width: 100%;
-        height: 300px;
-    }
-    .row2-img2{
-        width: 100%;
-        height: 300px;
-    }
-    .row2-img3{
-        width: 100%;
-        height: 300px;
-        display: block;
-
-    }
-    .row3-img1{
-        width: 100%;
-        height: 300px;
-    }
-    .row3-img2{
-        width: 100%;
-        height: 300px;
-    }
-
-    .row-1,.row-2,.row-3{
-        /* display: inline;
-        flex-direction: column;
-        gap: 10px;
-        margin-bottom: 10px;
-        height: 300px; */
-        display: grid;
-        grid-template-columns: 1fr;
-    } 
     /* why choose us section styles  */
     .card-container{
         flex-direction: column;
