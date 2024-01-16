@@ -435,6 +435,10 @@ footer{
     nav{
         display: none;
     }
+    .webName{
+        font-size: 20px;
+        font-weight: 800;
+    }
     .menubar{
         display: inline-block;
         margin-right: 20px;
@@ -586,7 +590,7 @@ footer{
         width: 180px;
         height: 80px;
         top: 70%;
-        left: 50%;
+        left: 450%;
     }
 }
 
